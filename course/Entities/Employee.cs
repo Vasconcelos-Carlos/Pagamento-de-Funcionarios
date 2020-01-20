@@ -1,4 +1,4 @@
-﻿namespace Herança_Polimosfismo.course
+﻿namespace Herança_Polimosfismo.course.Entities
 {
     class Employee
     {
@@ -14,7 +14,7 @@
         }
 
         // Metodo de pagameto
-        public double Payment()
+        public virtual double Payment()
         {
             return ValuePerHour * Hours;
         }
